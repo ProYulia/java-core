@@ -61,7 +61,7 @@ public class Game {
         while (!isCellEmpty(x, y));
         field.setXY(x, y, ConstantList.DOT_AI);
     }
-    
+
     private boolean checkWin(char c){
         // Проверка по горизонталям
         int row  = 0;
